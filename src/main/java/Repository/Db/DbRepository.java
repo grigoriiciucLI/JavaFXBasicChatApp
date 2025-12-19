@@ -15,16 +15,12 @@ import java.util.Optional;
 
 public abstract class DbRepository<ID,E extends Entity<ID>> implements IRepository<ID, E> {
     Connection conn;
-
     public DbRepository(Connection conn) {
         this.conn = conn;
     }
-
     public Connection getConn() {
         return conn;
     }
-
-
     public List<E> filter(Filter filter){
         List<E> entities = new ArrayList<>();
         String where = filter.buildWhere();
@@ -43,7 +39,6 @@ public abstract class DbRepository<ID,E extends Entity<ID>> implements IReposito
         return entities;
     }
     @Override
-
     public List<E> getAll() {
         List<E> entities = new ArrayList<>();
         String sql = "SELECT * FROM " + getTableName();
@@ -62,7 +57,6 @@ public abstract class DbRepository<ID,E extends Entity<ID>> implements IReposito
     protected abstract E mapResultSetToEntity(ResultSet resultSet);
     public Optional<E> remove(ID id){
         String sql = "DELETE FROM " + getTableName() + " WHERE id = ?";
-        Optional<E> entity = findById(id);
         try(var ps = conn.prepareStatement(sql)){
             ps.setObject(1,id);
             ResultSet resultSet = ps.executeQuery();
