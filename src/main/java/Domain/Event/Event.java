@@ -2,14 +2,13 @@ package Domain.Event;
 
 import Domain.Entity;
 
-public abstract class Event implements IEvent {
-    Integer id;
+public abstract class Event extends Entity<Integer> implements IEvent{
 
     public Event(Integer id) {
-        this.id = id;
+        super(id);
     }
 
     public Event() {
-        this.id = null;
+        super();
     }
 }

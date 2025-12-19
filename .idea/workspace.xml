@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="Initial commit" />
+    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Event/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Event/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Db/DbRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/DbRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +24,31 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="372YZ1u8IbbUr6rHWUSS4ND7GXk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,6 +61,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hp/Desktop/JavaFX/DuckNetworkingApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/hp/Desktop/JavaFX/DuckNetworkingApp/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1766102687255</updated>
       <workItem from="1766102688374" duration="306000" />
+      <workItem from="1766151479075" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

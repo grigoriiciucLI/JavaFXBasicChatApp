@@ -8,6 +8,9 @@ public class Entity<ID> {
     public Entity(ID id) {
         this.id = id;
     }
+    public Entity(){
+        this.id = null;
+    }
 
     @Override
     public boolean equals(Object o) {
