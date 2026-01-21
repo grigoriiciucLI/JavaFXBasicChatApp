@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="finished person repository">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendRequestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendshipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/PaginatedDbRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/AbstractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/IService.java" afterDir="false" />
+    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="progressing...">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/init_db.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Event/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Event/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendRequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendshipRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/FriendshipRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Db/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/EntityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/IService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +70,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/hp/Desktop/JavaFX/DuckNetworkingApp/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +92,7 @@
       <workItem from="1766151479075" duration="6428000" />
       <workItem from="1767726047836" duration="595000" />
       <workItem from="1768376576425" duration="31000" />
-      <workItem from="1769006181892" duration="6374000" />
+      <workItem from="1769006181892" duration="12111000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -118,7 +126,31 @@
       <option name="project" value="LOCAL" />
       <updated>1769014784551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added paginated repository">
+      <option name="closed" value="true" />
+      <created>1769016083201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769016083201</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added paginated repository filter">
+      <option name="closed" value="true" />
+      <created>1769016314614</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769016314614</updated>
+    </task>
+    <task id="LOCAL-00007" summary="progressing...">
+      <option name="closed" value="true" />
+      <created>1769017214338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769017214338</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +161,9 @@
     <MESSAGE value="added delete, filter, getAll to generic database repository" />
     <MESSAGE value="finished db generic repository" />
     <MESSAGE value="finished person repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished person repository" />
+    <MESSAGE value="added paginated repository" />
+    <MESSAGE value="added paginated repository filter" />
+    <MESSAGE value="progressing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="progressing..." />
   </component>
 </project>

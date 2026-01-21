@@ -18,11 +18,27 @@ public class Notification extends Entity<Integer> {
         generatedOn = LocalDateTime.now();
     }
 
-    public Notification(Integer id, boolean seen, User receiver, String content, LocalDateTime generatedOn, LocalDateTime seenOn) {
+    public Notification(Integer id, User receiver, String content, LocalDateTime generatedOn, LocalDateTime seenOn) {
         super(id);
         this.receiver = receiver;
         this.content = content;
         this.generatedOn = generatedOn;
         this.seenOn = seenOn;
+    }
+
+    public User getReceiver() {
+        return receiver;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public LocalDateTime getGeneratedOn() {
+        return generatedOn;
+    }
+
+    public LocalDateTime getSeenOn() {
+        return seenOn;
     }
 }

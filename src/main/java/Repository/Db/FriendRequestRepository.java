@@ -1,9 +1,7 @@
 package Repository.Db;
-
 import Domain.Event.FriendRequest;
 import Domain.Event.Status;
 import Domain.User.User;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -19,15 +17,14 @@ public class FriendRequestRepository extends DbRepository<Integer, FriendRequest
 
     @Override
     protected String buildInsertSql() {
-        return "INSERT INTO friend_requests (id, request_from, request_to, status) VALUES (?, ?, ?, ?)";
+        return "INSERT INTO friend_requests (request_from, request_to, status) VALUES (?, ?, ?)";
     }
 
     @Override
     protected void setInsertParameters(PreparedStatement ps, FriendRequest fr) throws SQLException {
-        ps.setInt(1, fr.getId());
-        ps.setLong(2, fr.getRequestFrom().getId());
-        ps.setLong(3, fr.getRequestTo().getId());
-        ps.setString(4, fr.getStatus().name()); // store enum as string
+        ps.setLong(1, fr.getRequestFrom().getId());
+        ps.setLong(2, fr.getRequestTo().getId());
+        ps.setString(3, fr.getStatus().name());
     }
 
     @Override
@@ -51,12 +48,9 @@ public class FriendRequestRepository extends DbRepository<Integer, FriendRequest
     @Override
     protected FriendRequest mapResultSetToEntity(ResultSet rs) throws SQLException {
         Integer id = rs.getInt("id");
-
         User from = personRepository.findById(rs.getLong("request_from")).orElseThrow();
         User to = personRepository.findById(rs.getLong("request_to")).orElseThrow();
-
         Status status = Status.valueOf(rs.getString("status"));
-
         return new FriendRequest(id, from, to, status);
     }
 }

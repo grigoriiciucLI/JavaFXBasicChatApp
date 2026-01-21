@@ -18,14 +18,13 @@ public class FriendshipRepository extends DbRepository<Integer,Friendship> {
 
     @Override
     protected String buildInsertSql() {
-        return "INSERT INTO friendships (id, user1_id, user2_id) VALUES (?, ?, ?)";
+        return "INSERT INTO friendships (user1_id, user2_id) VALUES (?, ?)";
     }
 
     @Override
     protected void setInsertParameters(PreparedStatement ps, Friendship friendship) throws SQLException {
-        ps.setInt(1, friendship.getId());
-        ps.setLong(2, friendship.getU1().getId());
-        ps.setLong(3, friendship.getU2().getId());
+        ps.setLong(1, friendship.getU1().getId());
+        ps.setLong(2, friendship.getU2().getId());
     }
 
     @Override
