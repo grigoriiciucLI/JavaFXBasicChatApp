@@ -12,6 +12,10 @@ public class Entity<ID> {
         this.id = null;
     }
 
+    public ID getId() {
+        return id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -24,4 +28,5 @@ public class Entity<ID> {
     public int hashCode() {
         return Objects.hash(id);
     }
+
 }

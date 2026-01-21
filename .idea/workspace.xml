@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="added delete, filter, getAll to generic database repository">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Db/DbRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Db/DbRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/IRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +64,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/hp/Desktop/JavaFX/DuckNetworkingApp/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,6 +80,9 @@
       <updated>1766102687255</updated>
       <workItem from="1766102688374" duration="306000" />
       <workItem from="1766151479075" duration="6428000" />
+      <workItem from="1767726047836" duration="595000" />
+      <workItem from="1768376576425" duration="31000" />
+      <workItem from="1769006181892" duration="3363000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

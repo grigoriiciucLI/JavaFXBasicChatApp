@@ -1,6 +1,8 @@
 package Repository;
 
 import Domain.Entity;
+import Domain.Filter;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -9,5 +11,6 @@ public interface IRepository<ID, E extends Entity<ID>> {
     Optional<E> remove(ID id);
     Optional<E> findById(ID id);
     List<E> getAll();
-    E update(E e);
+    Optional<E> update(E e);
+    List<E> filter(Filter f);
 }
