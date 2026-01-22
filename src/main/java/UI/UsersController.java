@@ -20,11 +20,16 @@ import java.io.IOException;
 
 public class UsersController {
 
-    @FXML private TextField searchField;
-    @FXML private TableView<Person> usersTable;
-    @FXML private TableColumn<Person, Long> idColumn;
-    @FXML private TableColumn<Person, String> usernameColumn;
-    @FXML private TableColumn<Person, String> emailColumn;
+    @FXML
+    private TextField searchField;
+    @FXML
+    private TableView<Person> usersTable;
+    @FXML
+    private TableColumn<Person, Long> idColumn;
+    @FXML
+    private TableColumn<Person, String> usernameColumn;
+    @FXML
+    private TableColumn<Person, String> emailColumn;
 
     private AuthService authService;
     private PersonService personService;
@@ -83,4 +88,20 @@ public class UsersController {
             throw new RuntimeException(e);
         }
     }
+
+    @FXML
+    private void handleLogout() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/Login.fxml"));
+            Parent root = loader.load();
+            ProfileController controller = loader.getController();
+            authService.logout();
+            controller.setServices(authService, stage);
+            stage.setScene(new Scene(root));
+            stage.setTitle("Login");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
+

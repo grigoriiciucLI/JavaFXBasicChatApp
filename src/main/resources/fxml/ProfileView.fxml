@@ -17,6 +17,7 @@
         <Button fx:id="addButton" text="Add" onAction="#handleAdd"/>
         <Button fx:id="removeButton" text="Remove" onAction="#handleRemove"/>
     </HBox>
+    <Button text="Back" onAction="#handleBack"/>
 
 </VBox>
 

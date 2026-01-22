@@ -16,4 +16,5 @@
             <TableColumn fx:id="emailColumn" text="Email"/>
         </columns>
     </TableView>
+    <Button text="Log out" onAction="#handleLogout" />
 </VBox>

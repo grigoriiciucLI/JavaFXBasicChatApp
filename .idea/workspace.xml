@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="service layer + initialize database query">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Service/FriendshipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UI/ProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/ProfileView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f0daf922-bd6b-47f9-849b-72890a89b8ec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f0daf922-bd6b-47f9-849b-72890a89b8ec.xml" afterDir="false" />
+    <list default="true" id="0a408252-c4c5-4e38-8a39-ef10ef01c2df" name="Changes" comment="profile window done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Domain/User/Friendship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Domain/User/Friendship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/EntityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/EntityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UI/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/ProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/UI/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/ProfileView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/ProfileView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/UsersView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/UsersView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +139,7 @@
       <workItem from="1767726047836" duration="595000" />
       <workItem from="1768376576425" duration="31000" />
       <workItem from="1769006181892" duration="18180000" />
-      <workItem from="1769069275849" duration="2223000" />
+      <workItem from="1769069275849" duration="3470000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -220,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769023348040</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="profile window done">
+      <option name="closed" value="true" />
+      <created>1769071616671</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769071616671</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +247,8 @@
     <MESSAGE value="added paginated repository filter" />
     <MESSAGE value="progressing..." />
     <MESSAGE value="service layer + initialize database query" />
-    <option name="LAST_COMMIT_MESSAGE" value="service layer + initialize database query" />
+    <MESSAGE value="profile window done" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile window done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DuckNetworkingApp$DuckNetworkingApp__build_.ic" NAME="DuckNetworkingApp [build] Coverage Results" MODIFIED="1769030185860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
